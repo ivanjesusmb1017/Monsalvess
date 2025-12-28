@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>MONSALVE | Tienda Online</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#000;
+    color:#fff;
+}
+header{
+    text-align:center;
+    padding:30px;
+}
+header img{
+    width:160px;
+}
+nav{
+    text-align:center;
+    background:#111;
+    padding:15px;
+}
+nav a{
+    color:#fff;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    color:red;
+}
+section{
+    padding:40px;
+    text-align:center;
+}
+.productos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+.card{
+    background:#111;
+    width:260px;
+    padding:20px;
+    border-radius:10px;
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+.card h3{
+    margin:10px 0;
+}
+.precio{
+    color:red;
+    font-size:18px;
+    font-weight:bold;
+}
+.boton{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:red;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+.boton:hover{
+    background:darkred;
+}
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="MONSALVE">
+    <p>Luxury Perfumery • Bisutería • Ropa</p>
+</header>
+
+<nav>
+    <a href="#perfumes">Perfumería</a>
+    <a href="#bisuteria">Bisutería</a>
+    <a href="#ropa">Ropa</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="perfumes">
+<h2>Perfumería</h2>
+<div class="productos">
+<div class="card">
+    <img src="https://via.placeholder.com/250" alt="Perfume">
+    <h3>Perfume Exclusivo</h3>
+    <p class="precio">$50</p>
+    <a class="boton" href="https://wa.me/0000000000?text=Quiero%20comprar%20el%20Perfume%20Exclusivo%20de%20MONSALVE">Comprar</a>
+</div>
+</div>
+</section>
+
+<section id="bisuteria">
+<h2>Bisutería</h2>
+<div class="productos">
+<div class="card">
+    <img src="https://via.placeholder.com/250" alt="Bisutería">
+    <h3>Collar Elegante</h3>
+    <p class="precio">$20</p>
+    <a class="boton" href="https://wa.me/0000000000?text=Quiero%20comprar%20el%20Collar%20Elegante%20de%20MONSALVE">Comprar</a>
+</div>
+</div>
+</section>
+
+<section id="ropa">
+<h2>Ropa</h2>
+<div class="productos">
+<div class="card">
+    <img src="https://via.placeholder.com/250" alt="Ropa">
+    <h3>Camiseta MONSALVE</h3>
+    <p class="precio">$30</p>
+    <a class="boton" href="https://wa.me/0000000000?text=Quiero%20comprar%20la%20Camiseta%20MONSALVE">Comprar</a>
+</div>
+</div>
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<p>📩 contacto@monsalve.com</p>
+<p>📱 Instagram: @monsalve</p>
+</section>
+
+<footer>
+<p>© 2025 MONSALVE | Tienda Oficial</p>
+</footer>
+
+</body>
+</html>
